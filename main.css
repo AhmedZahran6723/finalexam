@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 18px 0;
+    color: #807777;
+}
+
+
+/* h5 {
+    color: white ;
+    background: #007bff;
+    margin-left: 40px;
+    display: inline;
+    padding: 6px;
+    border-radius: 14px;
+} */
+
+h4 {
+    margin: 15px 0;
+}
+
+
+/*********************  Start [Login] Style ****************** */
+
+.login input {
+    border-radius: 7px;
+    border: 1px solid #343a40;
+    margin-left: 10px;
+    height: 32px;
+}
+
+.login .submit {
+    background: #343a40;
+    border: 1px solid #343a40;
+    color: white;
+    padding: 5px 7px;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 760px) {
+    .login form input {
+        width: 100%;
+        margin: 3px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .login form input {
+        margin: 2px;
+    }
+}
+
+@media screen and (max-width:822px) {
+    .register .btn {
+        margin-bottom: 15px;
+    }
+}
+
+
+/*
+@media screen and (max-width:400px)
+{
+.className {
+    width:200px
+}*/
+
+
+/*********************  End [Login] Style ****************** */
+
+
+/********************* Start NavBar Style ****************** */
+
+#navbarNav .navbar-nav a {
+    color: white;
+    font-weight: 600;
+}
+
+#navbarNav .navbar-nav a:hover {
+    background: #DC3545;
+    border-radius: 10px;
+}
+
+.navbar #span1 {
+    font-size: 25px;
+}
+
+.navbar #span2 {
+    font-size: 30px;
+    color: #DC3545;
+}
+
+
+/********************* End NavBar Style ****************** */
+
+
+/********************* Start Register Form Style ****************** */
+
+.register .row {
+    margin-bottom: 15px;
+}
+
+.register .row .btn {
+    padding: 7px 23px;
+}
+
+.register span {
+    cursor: pointer;
+}
+
+.register .logIn {
+    color: #007bff;
+}
+
+.register .signUp {
+    color: #5db130;
+}
+
+.register .logOut {
+    color: #ea3f3f;
+    display: none;
+}
+
+.register .container .form2 {
+    display: none;
+}
+
+.pass {
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    font-size: 27px;
+}
+
+#exam button a {
+    text-decoration: none;
+}
+
+@media screen and (max-width:812px) {
+    #exam button a {
+        text-decoration: none;
+    }
+    #exam button {
+        width: 100%;
+        ;
+    }
+    .register .row .btn {
+        width: 100%;
+    }
+}
+
+
+/********************* End Register Form Style ****************** */
+
+#exam .container div {
+    margin: 20px 0;
+}
+
+
+/* Start Footer */
+
+.footer h5 {
+    color: rgb(165, 151, 151);
+    font-size: 18.9px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.footer p {
+    color: #777;
+    line-height: 26px;
+}
+
+.footer span {
+    color: #fff;
+}
+
+.footercontainer {
+    background-color: #212529;
+}
+
+.footerp {
+    color: #555555;
+    font-size: 15.12px;
+    /* margin-left: 480px;
+    margin-top: 70px;
+    margin-bottom: 0px; */
+}
+
+.footer input[type=button] {
+    margin-top: 50px;
+}
+
+.footer .links a {
+    color: #cbdaeb;
+}
+
+#location {
+    height: 300px;
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* End Footer */
+
+
+/* stat about us */
+
+.aboutus {
+    /* background-color: rgb(141, 38, 38); */
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+
+/* End about us */
+
+
+/*Start Section Contact Us*/
+
+.contact-us {
+    background: url('../images/contactus.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.contact-us .fields {
+    background: rgba(9, 9, 9, 0.8);
+    min-height: 300px;
+    color: #DDD;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact-us p {
+    margin-bottom: 40px;
+}
+
+.contact-us textarea {
+    height: 108px;
+    resize: none;
+}
+
+.contact-us input[type="text"],
+.contact-us input[type="email"],
+.contact-us textarea,
+.contact-us input[type="number"] {
+    background: rgba(82, 78, 78, 0.7);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact-us .contact {
+    margin-left: 10px;
+}
+
+.contact-us #tell {
+    color: #DC3545;
+}
+
+
+/* Start Slider */
+
+.carousel-indicators li {
+    height: 15px;
+    width: 15px;
+}
+
+.carousel-indicators .active {
+    height: 22px;
+    width: 22px;
+    background-color: #DC3545;
+}
+
+.carousel-indicators {
+    bottom: 3px;
+}
+
+.carousel-inner>.item>img {
+    width: 100%
+}
+
+.carousel img {
+    height: 360px;
+}
+
+
+/* End Slider */
